@@ -6,7 +6,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for quandl-scala#quandl-scala$sources_javadoc_2.9.1;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies quandl-scala#quandl-scala$sources_javadoc_2.9.1;1.0->org.scala-lang#scala-library;2.9.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3088890d[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b2143d8[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.1 in sbt-chain[0m
@@ -107,21 +107,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for quandl-scala#quandl-scala$sources_javadoc_2.9.1;1.0 [pom][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/atrask/Dropbox/quandl-scala/target/resolution-cache/quandl-scala/quandl-scala$sources_javadoc_2.9.1/1.0/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m		tried /Users/atrask/.ivy2/local/org.scala-lang/scala-library/2.9.1/srcs/scala-library-sources.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/atrask/.ivy2/local/org.scala-lang/scala-library/2.9.1/docs/scala-library-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-sources.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-sources.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-sources.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-sources.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-sources.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.9.1!scala-library.jar(src) (654ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-javadoc.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-javadoc.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-javadoc.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-javadoc.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.9.1!scala-library.jar(doc) (5380ms)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 88ms :: artifacts dl 6084ms[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.9.1!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.9.1!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 155ms :: artifacts dl 37ms[0m
 [0m[[0mdebug[0m] [0m	report for quandl-scala#quandl-scala$sources_javadoc_2.9.1;1.0 compile produced in /Users/atrask/Dropbox/quandl-scala/target/resolution-cache/reports/quandl-scala-quandl-scala$sources_javadoc_2.9.1-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for quandl-scala#quandl-scala$sources_javadoc_2.9.1;1.0 runtime produced in /Users/atrask/Dropbox/quandl-scala/target/resolution-cache/reports/quandl-scala-quandl-scala$sources_javadoc_2.9.1-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for quandl-scala#quandl-scala$sources_javadoc_2.9.1;1.0 test produced in /Users/atrask/Dropbox/quandl-scala/target/resolution-cache/reports/quandl-scala-quandl-scala$sources_javadoc_2.9.1-test.xml[0m
@@ -134,4 +122,4 @@
 [0m[[0mdebug[0m] [0m	report for quandl-scala#quandl-scala$sources_javadoc_2.9.1;1.0 sources produced in /Users/atrask/Dropbox/quandl-scala/target/resolution-cache/reports/quandl-scala-quandl-scala$sources_javadoc_2.9.1-sources.xml[0m
 [0m[[0mdebug[0m] [0m	report for quandl-scala#quandl-scala$sources_javadoc_2.9.1;1.0 docs produced in /Users/atrask/Dropbox/quandl-scala/target/resolution-cache/reports/quandl-scala-quandl-scala$sources_javadoc_2.9.1-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for quandl-scala#quandl-scala$sources_javadoc_2.9.1;1.0 pom produced in /Users/atrask/Dropbox/quandl-scala/target/resolution-cache/reports/quandl-scala-quandl-scala$sources_javadoc_2.9.1-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (88ms resolve - 6084ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (155ms resolve - 37ms download)[0m
